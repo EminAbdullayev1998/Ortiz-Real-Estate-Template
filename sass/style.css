@@ -1,0 +1,2197 @@
+header {
+  width: 100%;
+  height: 200px;
+}
+header .header-top {
+  width: 100%;
+  height: 80px;
+  background-color: #05344A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-top .main-box {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+header .header-top .main-box .call-us {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+header .header-top .main-box .call-us p {
+  color: #fff;
+  margin-left: 200px;
+}
+header .header-top .main-box .buttons {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-top .main-box .buttons button {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: #25a5de;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.5s;
+}
+header .header-top .main-box .buttons button:hover {
+  background-color: black;
+}
+header .header-top .main-box .buttons .register {
+  color: #25a5de;
+  text-decoration: none;
+  margin-left: 40px;
+}
+header .header-top .main-box .buttons .login {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+}
+header .header-alt {
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-alt .main-box {
+  width: 100%;
+  height: 90px;
+  display: flex;
+}
+header .header-alt .main-box .logo {
+  width: 30%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-alt .main-box .navbar {
+  width: 70%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-alt .main-box .navbar ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-alt .main-box .navbar ul li {
+  list-style: none;
+}
+header .header-alt .main-box .navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+header .header-alt .main-box .navbar ul li .fa-solid {
+  color: #25a5de;
+  font-size: 25px;
+}
+header .header-alt .main-box .navbar .burger {
+  width: 10%;
+  height: 90px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+header .header-alt .main-box .navbar .burger .fa-grip-lines {
+  font-size: 40px;
+}
+
+.one {
+  width: 100%;
+  height: 600px;
+  background-image: url("/img/sec1bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.one .main-box {
+  width: 35%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+.one .main-box .text {
+  width: 80%;
+  height: 250px;
+}
+.one .main-box .text .h1 {
+  width: 100%;
+  height: 60px;
+}
+.one .main-box .text .h1 h1 {
+  font-size: 46px;
+  font-weight: 700;
+  color: white;
+}
+.one .main-box .text .h3 {
+  width: 100%;
+  height: 60px;
+}
+.one .main-box .text .h3 h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+.one .main-box .text .p {
+  width: 100%;
+  height: 60px;
+}
+.one .main-box .text .p p {
+  color: white;
+}
+.one .main-box .text .h2 {
+  width: 100%;
+  height: 60px;
+}
+.one .main-box .text .h2 h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.two {
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two .main-box {
+  width: 70%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.two .main-box .photo-box {
+  width: 30%;
+  height: 400px;
+}
+.two .main-box .photo-box .photo {
+  width: 100%;
+  height: 350px;
+}
+.two .main-box .photo-box .text {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.two .main-box .photo-box .text p {
+  margin-left: 10px;
+}
+.two .main-box .text-box {
+  width: 60%;
+  height: 400px;
+}
+.two .main-box .text-box .h2 {
+  width: 100%;
+  height: 100px;
+}
+.two .main-box .text-box .h2 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.two .main-box .text-box .p {
+  width: 100%;
+  height: 100px;
+}
+.two .main-box .text-box .specials {
+  width: 100%;
+  height: 200px;
+}
+.two .main-box .text-box .specials .box1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.two .main-box .text-box .specials .box1 .boxx1 {
+  width: 50%;
+  height: 100px;
+}
+.two .main-box .text-box .specials .box1 .boxx1 .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.two .main-box .text-box .specials .box1 .boxx1 .title .fa-solid {
+  font-size: 30px;
+  color: skyblue;
+}
+.two .main-box .text-box .specials .box1 .boxx1 .title h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.two .main-box .text-box .specials .box1 .boxx1 .p {
+  width: 100%;
+  height: 50px;
+}
+.two .main-box .text-box .specials .box1 .boxx2 {
+  width: 50%;
+  height: 100px;
+}
+.two .main-box .text-box .specials .box1 .boxx2 .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.two .main-box .text-box .specials .box1 .boxx2 .title .fa-solid {
+  font-size: 30px;
+  color: skyblue;
+}
+.two .main-box .text-box .specials .box1 .boxx2 .title h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.two .main-box .text-box .specials .box1 .boxx2 .p {
+  width: 100%;
+  height: 50px;
+}
+.two .main-box .text-box .specials .box2 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.two .main-box .text-box .specials .box2 .boxx1 {
+  width: 50%;
+  height: 100px;
+}
+.two .main-box .text-box .specials .box2 .boxx1 .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.two .main-box .text-box .specials .box2 .boxx1 .title .fa-solid {
+  font-size: 30px;
+  color: skyblue;
+}
+.two .main-box .text-box .specials .box2 .boxx1 .title h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.two .main-box .text-box .specials .box2 .boxx1 .p {
+  width: 100%;
+  height: 50px;
+}
+.two .main-box .text-box .specials .box2 .boxx2 {
+  width: 50%;
+  height: 100px;
+}
+.two .main-box .text-box .specials .box2 .boxx2 .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.two .main-box .text-box .specials .box2 .boxx2 .title .fa-solid {
+  font-size: 30px;
+  color: skyblue;
+}
+.two .main-box .text-box .specials .box2 .boxx2 .title h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.two .main-box .text-box .specials .box2 .boxx2 .p {
+  width: 100%;
+  height: 50px;
+}
+
+.propertyforsale {
+  width: 100%;
+  height: 900px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforsale .main-box {
+  width: 80%;
+  height: 800px;
+}
+.propertyforsale .main-box .title {
+  width: 100%;
+  height: 100px;
+}
+.propertyforsale .main-box .title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #151515;
+  text-align: center;
+}
+.propertyforsale .main-box .title p {
+  text-align: center;
+}
+.propertyforsale .main-box .boxes1 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.propertyforsale .main-box .boxes1 .box1 {
+  width: 20%;
+  height: 300px;
+  border: 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforsale .main-box .boxes1 .box1 .photo {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  position: relative;
+}
+.propertyforsale .main-box .boxes1 .box1 .photo img {
+  transition: all 1s;
+}
+.propertyforsale .main-box .boxes1 .box1 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforsale .main-box .boxes1 .box1 .photo p {
+  position: absolute;
+  top: 10px;
+  border: 1px solid #25a5de;
+  width: 40%;
+  background-color: #25a5de;
+  color: white;
+}
+.propertyforsale .main-box .boxes1 .box1 .name {
+  width: 100%;
+  height: 50px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforsale .main-box .boxes1 .box1 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforsale .main-box .boxes1 .box1 .name a:hover {
+  color: blue;
+}
+.propertyforsale .main-box .boxes1 .box1 .about {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.propertyforsale .main-box .boxes1 .box1 .about p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.propertyforsale .main-box .boxes1 .box1 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+.propertyforsale .main-box .boxes1 .box2 {
+  width: 20%;
+  height: 300px;
+  border: 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforsale .main-box .boxes1 .box2 .photo {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+}
+.propertyforsale .main-box .boxes1 .box2 .photo img {
+  transition: all 1s;
+}
+.propertyforsale .main-box .boxes1 .box2 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforsale .main-box .boxes1 .box2 .name {
+  width: 100%;
+  height: 50px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforsale .main-box .boxes1 .box2 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforsale .main-box .boxes1 .box2 .name a:hover {
+  color: blue;
+}
+.propertyforsale .main-box .boxes1 .box2 .about {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.propertyforsale .main-box .boxes1 .box2 .about p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.propertyforsale .main-box .boxes1 .box2 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+.propertyforsale .main-box .boxes1 .box3 {
+  width: 20%;
+  height: 300px;
+  border: 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforsale .main-box .boxes1 .box3 .photo {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  position: relative;
+}
+.propertyforsale .main-box .boxes1 .box3 .photo img {
+  transition: all 1s;
+}
+.propertyforsale .main-box .boxes1 .box3 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforsale .main-box .boxes1 .box3 .photo p {
+  position: absolute;
+  top: 10px;
+  border: 1px solid black;
+  width: 40%;
+  background-color: black;
+  color: white;
+}
+.propertyforsale .main-box .boxes1 .box3 .name {
+  width: 100%;
+  height: 50px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforsale .main-box .boxes1 .box3 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforsale .main-box .boxes1 .box3 .name a:hover {
+  color: blue;
+}
+.propertyforsale .main-box .boxes1 .box3 .about {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.propertyforsale .main-box .boxes1 .box3 .about p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.propertyforsale .main-box .boxes1 .box3 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+.propertyforsale .main-box .boxes1 .box4 {
+  width: 20%;
+  height: 300px;
+  border: 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforsale .main-box .boxes1 .box4 .photo {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+}
+.propertyforsale .main-box .boxes1 .box4 .photo img {
+  transition: all 1s;
+}
+.propertyforsale .main-box .boxes1 .box4 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforsale .main-box .boxes1 .box4 .name {
+  width: 100%;
+  height: 50px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforsale .main-box .boxes1 .box4 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforsale .main-box .boxes1 .box4 .name a:hover {
+  color: blue;
+}
+.propertyforsale .main-box .boxes1 .box4 .about {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.propertyforsale .main-box .boxes1 .box4 .about p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.propertyforsale .main-box .boxes1 .box4 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+.propertyforsale .main-box .line {
+  width: 100%;
+  height: 100px;
+}
+.propertyforsale .main-box .boxes2 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.propertyforsale .main-box .boxes2 .box1 {
+  width: 20%;
+  height: 300px;
+  border: 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforsale .main-box .boxes2 .box1 .photo {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+}
+.propertyforsale .main-box .boxes2 .box1 .photo img {
+  transition: all 1s;
+}
+.propertyforsale .main-box .boxes2 .box1 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforsale .main-box .boxes2 .box1 .name {
+  width: 100%;
+  height: 50px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforsale .main-box .boxes2 .box1 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforsale .main-box .boxes2 .box1 .name a:hover {
+  color: blue;
+}
+.propertyforsale .main-box .boxes2 .box1 .about {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.propertyforsale .main-box .boxes2 .box1 .about p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.propertyforsale .main-box .boxes2 .box1 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+.propertyforsale .main-box .boxes2 .box2 {
+  width: 20%;
+  height: 300px;
+  border: 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforsale .main-box .boxes2 .box2 .photo {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  position: relative;
+}
+.propertyforsale .main-box .boxes2 .box2 .photo img {
+  transition: all 1s;
+}
+.propertyforsale .main-box .boxes2 .box2 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforsale .main-box .boxes2 .box2 .photo p {
+  position: absolute;
+  top: 10px;
+  border: 1px solid #25a5de;
+  width: 40%;
+  background-color: #25a5de;
+  color: white;
+}
+.propertyforsale .main-box .boxes2 .box2 .name {
+  width: 100%;
+  height: 50px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforsale .main-box .boxes2 .box2 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforsale .main-box .boxes2 .box2 .name a:hover {
+  color: blue;
+}
+.propertyforsale .main-box .boxes2 .box2 .about {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.propertyforsale .main-box .boxes2 .box2 .about p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.propertyforsale .main-box .boxes2 .box2 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+.propertyforsale .main-box .boxes2 .box3 {
+  width: 20%;
+  height: 300px;
+  border: 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforsale .main-box .boxes2 .box3 .photo {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+}
+.propertyforsale .main-box .boxes2 .box3 .photo img {
+  transition: all 1s;
+}
+.propertyforsale .main-box .boxes2 .box3 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforsale .main-box .boxes2 .box3 .name {
+  width: 100%;
+  height: 50px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforsale .main-box .boxes2 .box3 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforsale .main-box .boxes2 .box3 .name a:hover {
+  color: blue;
+}
+.propertyforsale .main-box .boxes2 .box3 .about {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.propertyforsale .main-box .boxes2 .box3 .about p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.propertyforsale .main-box .boxes2 .box3 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+.propertyforsale .main-box .boxes2 .box4 {
+  width: 20%;
+  height: 300px;
+  border: 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforsale .main-box .boxes2 .box4 .photo {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+}
+.propertyforsale .main-box .boxes2 .box4 .photo img {
+  transition: all 1s;
+}
+.propertyforsale .main-box .boxes2 .box4 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforsale .main-box .boxes2 .box4 .name {
+  width: 100%;
+  height: 50px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforsale .main-box .boxes2 .box4 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforsale .main-box .boxes2 .box4 .name a:hover {
+  color: blue;
+}
+.propertyforsale .main-box .boxes2 .box4 .about {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.propertyforsale .main-box .boxes2 .box4 .about p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.propertyforsale .main-box .boxes2 .box4 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.wenevercompromize {
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wenevercompromize .main-box {
+  width: 70%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.wenevercompromize .main-box .photos {
+  width: 40%;
+  height: 400px;
+  position: relative;
+}
+.wenevercompromize .main-box .photos .photo1 {
+  width: 70%;
+  height: 300px;
+  position: absolute;
+  top: 90px;
+  left: 120px;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  border: 1px;
+  border-radius: 0 0 10px 10px;
+}
+.wenevercompromize .main-box .photos .photo1 .photo {
+  width: 100%;
+  height: 240px;
+  border-radius: 0 0 10px 10px;
+}
+.wenevercompromize .main-box .photos .photo1 .price {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+.wenevercompromize .main-box .photos .photo1 .price p {
+  text-align: center;
+  color: #25a5de;
+  font-size: 24px;
+  font-weight: 600;
+}
+.wenevercompromize .main-box .photos .photo2 {
+  width: 70%;
+  height: 300px;
+  position: absolute;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  border: 1px;
+  border-radius: 0 0 10px 10px;
+}
+.wenevercompromize .main-box .photos .photo2 .photo {
+  width: 100%;
+  height: 240px;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+}
+.wenevercompromize .main-box .photos .photo2 .photo p {
+  position: absolute;
+  top: 20px;
+  left: -30px;
+  border: 1px solid s #25a5de;
+  width: 45%;
+  background-color: #25a5de;
+  color: white;
+  text-align: center;
+  transform: rotate(313deg);
+}
+.wenevercompromize .main-box .photos .photo2 .price {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+.wenevercompromize .main-box .photos .photo2 .price p {
+  text-align: center;
+  color: #25a5de;
+  font-size: 24px;
+  font-weight: 600;
+}
+.wenevercompromize .main-box .text {
+  width: 50%;
+  height: 400px;
+}
+.wenevercompromize .main-box .text .h2 {
+  width: 100%;
+  height: 100px;
+}
+.wenevercompromize .main-box .text .h2 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.wenevercompromize .main-box .text .p {
+  width: 100%;
+  height: 100px;
+}
+.wenevercompromize .main-box .text .specials {
+  width: 100%;
+  height: 200px;
+}
+.wenevercompromize .main-box .text .specials .box1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.wenevercompromize .main-box .text .specials .box1 .boxx1 {
+  width: 50%;
+  height: 100px;
+}
+.wenevercompromize .main-box .text .specials .box1 .boxx1 .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.wenevercompromize .main-box .text .specials .box1 .boxx1 .title .fa-brush {
+  font-size: 30px;
+  color: skyblue;
+}
+.wenevercompromize .main-box .text .specials .box1 .boxx1 .title h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.wenevercompromize .main-box .text .specials .box1 .boxx1 .about {
+  width: 100%;
+  height: 50px;
+}
+.wenevercompromize .main-box .text .specials .box1 .boxx2 {
+  width: 50%;
+  height: 100px;
+}
+.wenevercompromize .main-box .text .specials .box1 .boxx2 .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.wenevercompromize .main-box .text .specials .box1 .boxx2 .title .fa-couch {
+  font-size: 30px;
+  color: skyblue;
+}
+.wenevercompromize .main-box .text .specials .box1 .boxx2 .title h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.wenevercompromize .main-box .text .specials .box1 .boxx2 .about {
+  width: 100%;
+  height: 50px;
+}
+.wenevercompromize .main-box .text .specials .box2 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.wenevercompromize .main-box .text .specials .box2 .boxx1 {
+  width: 50%;
+  height: 100px;
+}
+.wenevercompromize .main-box .text .specials .box2 .boxx1 .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.wenevercompromize .main-box .text .specials .box2 .boxx1 .title .fa-solid {
+  font-size: 30px;
+  color: skyblue;
+}
+.wenevercompromize .main-box .text .specials .box2 .boxx1 .title h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.wenevercompromize .main-box .text .specials .box2 .boxx1 .about {
+  width: 100%;
+  height: 50px;
+}
+.wenevercompromize .main-box .text .specials .box2 .boxx2 {
+  width: 50%;
+  height: 100px;
+}
+.wenevercompromize .main-box .text .specials .box2 .boxx2 .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.wenevercompromize .main-box .text .specials .box2 .boxx2 .title .fa-solid {
+  font-size: 30px;
+  color: skyblue;
+}
+.wenevercompromize .main-box .text .specials .box2 .boxx2 .title h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.wenevercompromize .main-box .text .specials .box2 .boxx2 .about {
+  width: 100%;
+  height: 50px;
+}
+
+.propertyforrent {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforrent .container {
+  width: 80%;
+  height: 500px;
+}
+.propertyforrent .container .title {
+  width: 100%;
+  height: 100px;
+}
+.propertyforrent .container .boxes {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.propertyforrent .container .boxes .box1 {
+  width: 20%;
+  height: 400px;
+  border: 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforrent .container .boxes .box1 .photo {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.propertyforrent .container .boxes .box1 .photo img {
+  transition: all 1s;
+}
+.propertyforrent .container .boxes .box1 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforrent .container .boxes .box1 .photo p {
+  position: absolute;
+  top: 10px;
+  border: 1px solid black;
+  width: 40%;
+  background-color: black;
+  color: white;
+}
+.propertyforrent .container .boxes .box1 .name {
+  width: 100%;
+  height: 100px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforrent .container .boxes .box1 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforrent .container .boxes .box1 .name a:hover {
+  color: blue;
+}
+.propertyforrent .container .boxes .box1 .about {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+.propertyforrent .container .boxes .box1 .about p {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+.propertyforrent .container .boxes .box1 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+.propertyforrent .container .boxes .box2 {
+  width: 20%;
+  height: 400px;
+  border: 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforrent .container .boxes .box2 .photo {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.propertyforrent .container .boxes .box2 .photo img {
+  transition: all 1s;
+}
+.propertyforrent .container .boxes .box2 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforrent .container .boxes .box2 .name {
+  width: 100%;
+  height: 100px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforrent .container .boxes .box2 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforrent .container .boxes .box2 .name a:hover {
+  color: blue;
+}
+.propertyforrent .container .boxes .box2 .about {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+.propertyforrent .container .boxes .box2 .about p {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+.propertyforrent .container .boxes .box2 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+.propertyforrent .container .boxes .box3 {
+  width: 20%;
+  height: 400px;
+  border: 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforrent .container .boxes .box3 .photo {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.propertyforrent .container .boxes .box3 .photo img {
+  transition: all 1s;
+}
+.propertyforrent .container .boxes .box3 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforrent .container .boxes .box3 .photo p {
+  position: absolute;
+  top: 10px;
+  border: 1px solid #25a5de;
+  width: 40%;
+  background-color: #25a5de;
+  color: white;
+}
+.propertyforrent .container .boxes .box3 .name {
+  width: 100%;
+  height: 100px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforrent .container .boxes .box3 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforrent .container .boxes .box3 .name a:hover {
+  color: blue;
+}
+.propertyforrent .container .boxes .box3 .about {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+.propertyforrent .container .boxes .box3 .about p {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+.propertyforrent .container .boxes .box3 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+.propertyforrent .container .boxes .box4 {
+  width: 20%;
+  height: 400px;
+  border: 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.propertyforrent .container .boxes .box4 .photo {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.propertyforrent .container .boxes .box4 .photo img {
+  transition: all 1s;
+}
+.propertyforrent .container .boxes .box4 .photo img:hover {
+  transform: scale(1.1, 1.1);
+}
+.propertyforrent .container .boxes .box4 .name {
+  width: 100%;
+  height: 100px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propertyforrent .container .boxes .box4 .name a {
+  text-decoration: none;
+  color: white;
+}
+.propertyforrent .container .boxes .box4 .name a:hover {
+  color: blue;
+}
+.propertyforrent .container .boxes .box4 .about {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+.propertyforrent .container .boxes .box4 .about p {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+.propertyforrent .container .boxes .box4 .about h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.desilvadevilla {
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desilvadevilla .main-box {
+  width: 80%;
+  height: 300px;
+}
+
+.ouragents {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ouragents .main-box {
+  width: 80%;
+  height: 500px;
+}
+.ouragents .main-box .title {
+  width: 100%;
+  height: 100px;
+}
+.ouragents .main-box .title h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.ouragents .main-box .title p {
+  text-align: center;
+}
+.ouragents .main-box .boxes {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.ouragents .main-box .boxes .agent1 {
+  width: 23%;
+  height: 400px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px 1px rgba(5, 52, 74, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ouragents .main-box .boxes .agent1 .box {
+  width: 80%;
+  height: 370px;
+}
+.ouragents .main-box .boxes .agent1 .box .photo {
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+}
+.ouragents .main-box .boxes .agent1 .box .text {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+.ouragents .main-box .boxes .agent1 .box .text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.ouragents .main-box .boxes .agent2 {
+  width: 23%;
+  height: 400px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px 1px rgba(5, 52, 74, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ouragents .main-box .boxes .agent2 .box {
+  width: 80%;
+  height: 370px;
+}
+.ouragents .main-box .boxes .agent2 .box .photo {
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+}
+.ouragents .main-box .boxes .agent2 .box .text {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+.ouragents .main-box .boxes .agent2 .box .text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.ouragents .main-box .boxes .agent3 {
+  width: 23%;
+  height: 400px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px 1px rgba(5, 52, 74, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ouragents .main-box .boxes .agent3 .box {
+  width: 80%;
+  height: 370px;
+}
+.ouragents .main-box .boxes .agent3 .box .photo {
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+}
+.ouragents .main-box .boxes .agent3 .box .text {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+.ouragents .main-box .boxes .agent3 .box .text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.ouragents .main-box .boxes .agent4 {
+  width: 23%;
+  height: 400px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px 1px rgba(5, 52, 74, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ouragents .main-box .boxes .agent4 .box {
+  width: 80%;
+  height: 370px;
+}
+.ouragents .main-box .boxes .agent4 .box .photo {
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+}
+.ouragents .main-box .boxes .agent4 .box .text {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+.ouragents .main-box .boxes .agent4 .box .text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.ceo {
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ceo .main-box {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.ceo .main-box .ceo1 {
+  width: 45%;
+  height: 300px;
+  border: 1px solid black;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ceo .main-box .ceo1 .title {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.ceo .main-box .ceo1 .title .photo {
+  width: 30%;
+  height: 150px;
+  position: absolute;
+  left: 100px;
+  bottom: 35px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ceo .main-box .ceo1 .title .text {
+  width: 50%;
+  height: 150px;
+  text-align: center;
+}
+.ceo .main-box .ceo1 .about {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ceo .main-box .ceo1 .about .p {
+  width: 80%;
+  height: 100px;
+}
+.ceo .main-box .ceo2 {
+  width: 45%;
+  height: 300px;
+  border: 1px solid black;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ceo .main-box .ceo2 .title {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.ceo .main-box .ceo2 .title .photo {
+  width: 30%;
+  height: 150px;
+  position: absolute;
+  left: 100px;
+  bottom: 35px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ceo .main-box .ceo2 .title .text {
+  width: 50%;
+  height: 150px;
+  text-align: center;
+}
+.ceo .main-box .ceo2 .about {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ceo .main-box .ceo2 .about .p {
+  width: 80%;
+  height: 100px;
+}
+
+.latestblogpost {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.latestblogpost .main-box {
+  width: 80%;
+  height: 500px;
+}
+.latestblogpost .main-box .title {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.latestblogpost .main-box .title h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.latestblogpost .main-box .boxes {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.latestblogpost .main-box .boxes .box1 {
+  width: 30%;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.latestblogpost .main-box .boxes .box1 .photo {
+  width: 100%;
+  height: 200px;
+}
+.latestblogpost .main-box .boxes .box1 .about {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.latestblogpost .main-box .boxes .box1 .about .text {
+  width: 90%;
+  height: 180px;
+}
+.latestblogpost .main-box .boxes .box1 .about .text .a {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.latestblogpost .main-box .boxes .box1 .about .text .a a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.latestblogpost .main-box .boxes .box1 .about .text .a a:hover {
+  color: blue;
+}
+.latestblogpost .main-box .boxes .box1 .about .text .p {
+  width: 100%;
+  height: 90px;
+}
+.latestblogpost .main-box .boxes .box1 .about .text .p p {
+  font-size: 14px;
+}
+.latestblogpost .main-box .boxes .box1 .about .text .more {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.latestblogpost .main-box .boxes .box1 .about .text .more a {
+  text-decoration: none;
+  color: blue;
+}
+.latestblogpost .main-box .boxes .box2 {
+  width: 30%;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.latestblogpost .main-box .boxes .box2 .photo {
+  width: 100%;
+  height: 200px;
+}
+.latestblogpost .main-box .boxes .box2 .about {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.latestblogpost .main-box .boxes .box2 .about .text {
+  width: 90%;
+  height: 180px;
+}
+.latestblogpost .main-box .boxes .box2 .about .text .a {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.latestblogpost .main-box .boxes .box2 .about .text .a a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.latestblogpost .main-box .boxes .box2 .about .text .a a:hover {
+  color: blue;
+}
+.latestblogpost .main-box .boxes .box2 .about .text .p {
+  width: 100%;
+  height: 90px;
+}
+.latestblogpost .main-box .boxes .box2 .about .text .p p {
+  font-size: 14px;
+}
+.latestblogpost .main-box .boxes .box2 .about .text .more {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.latestblogpost .main-box .boxes .box2 .about .text .more a {
+  text-decoration: none;
+  color: blue;
+}
+.latestblogpost .main-box .boxes .box3 {
+  width: 30%;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.latestblogpost .main-box .boxes .box3 .photo {
+  width: 100%;
+  height: 200px;
+}
+.latestblogpost .main-box .boxes .box3 .about {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.latestblogpost .main-box .boxes .box3 .about .text {
+  width: 90%;
+  height: 180px;
+}
+.latestblogpost .main-box .boxes .box3 .about .text .a {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.latestblogpost .main-box .boxes .box3 .about .text .a a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.latestblogpost .main-box .boxes .box3 .about .text .a a:hover {
+  color: blue;
+}
+.latestblogpost .main-box .boxes .box3 .about .text .p {
+  width: 100%;
+  height: 90px;
+}
+.latestblogpost .main-box .boxes .box3 .about .text .p p {
+  font-size: 14px;
+}
+.latestblogpost .main-box .boxes .box3 .about .text .more {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.latestblogpost .main-box .boxes .box3 .about .text .more a {
+  text-decoration: none;
+  color: blue;
+}
+
+.footerTop {
+  width: 100%;
+  height: 500px;
+  background-image: url("/img/footer.webp");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerTop .main-box {
+  width: 80%;
+  height: 400px;
+  display: flex;
+}
+.footerTop .main-box .about {
+  width: 25%;
+  height: 400px;
+}
+.footerTop .main-box .about .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footerTop .main-box .about .title h3 {
+  font-weight: 600;
+  color: #ffffff;
+}
+.footerTop .main-box .about .text {
+  width: 100%;
+  height: 200px;
+}
+.footerTop .main-box .about .text P {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+}
+.footerTop .main-box .about .input {
+  width: 100%;
+  height: 100px;
+  background-color: #06344b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerTop .main-box .about .input .email {
+  width: 70%;
+  height: 55px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.footerTop .main-box .about .input .email input {
+  height: 50px;
+  border: none;
+  background-color: transparent;
+}
+.footerTop .main-box .about .input .email input:focus-visible {
+  outline: none;
+  color: white;
+}
+.footerTop .main-box .about .input .email .fa-solid {
+  font-size: 20px;
+  color: white;
+}
+.footerTop .main-box .popularpost {
+  width: 25%;
+  height: 400px;
+}
+.footerTop .main-box .popularpost .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footerTop .main-box .popularpost .title h3 {
+  color: white;
+}
+.footerTop .main-box .popularpost .text1 {
+  width: 100%;
+  height: 150px;
+}
+.footerTop .main-box .popularpost .text1 .h4 {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+.footerTop .main-box .popularpost .text1 .h4 h4 {
+  color: white;
+}
+.footerTop .main-box .popularpost .text1 .p {
+  width: 100%;
+  height: 75px;
+}
+.footerTop .main-box .popularpost .text1 .p p {
+  color: white;
+}
+.footerTop .main-box .popularpost .text2 {
+  width: 100%;
+  height: 150px;
+}
+.footerTop .main-box .popularpost .text2 .h4 {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+.footerTop .main-box .popularpost .text2 .h4 h4 {
+  color: white;
+}
+.footerTop .main-box .popularpost .text2 .p {
+  width: 100%;
+  height: 75px;
+}
+.footerTop .main-box .popularpost .text2 .p p {
+  color: white;
+}
+.footerTop .main-box .links {
+  width: 25%;
+  height: 400px;
+}
+.footerTop .main-box .links .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerTop .main-box .links .title h3 {
+  color: white;
+}
+.footerTop .main-box .links .link {
+  width: 100%;
+  height: 300px;
+}
+.footerTop .main-box .links .link ul {
+  width: 50%;
+  height: 270px;
+  margin-left: 70px;
+}
+.footerTop .main-box .links .link li {
+  list-style: none;
+}
+.footerTop .main-box .links .link a {
+  text-decoration: none;
+  color: white;
+}
+.footerTop .main-box .links .link a:hover {
+  color: rgba(255, 255, 255, 0.853);
+}
+.footerTop .main-box .contact {
+  width: 25%;
+  height: 400px;
+}
+.footerTop .main-box .contact .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footerTop .main-box .contact .title h3 {
+  color: white;
+}
+.footerTop .main-box .contact .text1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footerTop .main-box .contact .text1 .fa-solid {
+  font-size: 35px;
+  color: white;
+}
+.footerTop .main-box .contact .text1 p {
+  color: white;
+  margin-left: 10px;
+}
+.footerTop .main-box .contact .text2 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footerTop .main-box .contact .text2 .fa-solid {
+  color: white;
+  font-size: 35px;
+}
+.footerTop .main-box .contact .text2 p {
+  color: white;
+  margin-left: 10px;
+}
+.footerTop .main-box .contact .text3 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footerTop .main-box .contact .text3 .fa-solid {
+  color: white;
+  font-size: 35px;
+}
+.footerTop .main-box .contact .text3 p {
+  color: white;
+  margin-left: 10px;
+}
+
+.footerAlt {
+  width: 100%;
+  height: 60px;
+  background-color: #25a5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerAlt p {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 200px;
+  }
+  header .header-top {
+    height: 100px;
+  }
+  header .header-top .main-box {
+    height: 80px;
+    flex-direction: column;
+  }
+  header .header-top .main-box .call-us {
+    width: 100%;
+    height: 40px;
+  }
+  header .header-top .main-box .buttons {
+    width: 100%;
+    height: 40px;
+  }
+  header .header-alt .main-box .logo {
+    width: 50%;
+  }
+  header .header-alt .main-box .navbar {
+    width: 50%;
+    justify-content: center;
+  }
+  header .header-alt .main-box .navbar ul {
+    display: none;
+  }
+  header .header-alt .main-box .navbar .burger {
+    width: 20%;
+    display: flex;
+  }
+  .one {
+    height: 500px;
+  }
+  .one .main-box {
+    width: 80%;
+    left: 50px;
+  }
+  .two {
+    height: 900px;
+    display: block;
+    position: relative;
+  }
+  .two .main-box {
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+  }
+  .two .main-box .photo-box {
+    width: 100%;
+  }
+  .two .main-box .text-box {
+    width: 100%;
+  }
+  .propertyforsale {
+    height: 2700px;
+    display: block;
+    position: relative;
+  }
+  .propertyforsale .main-box {
+    height: 2600px;
+    position: absolute;
+    top: 30px;
+    left: 45px;
+  }
+  .propertyforsale .main-box .boxes1 {
+    flex-direction: column;
+    height: 1200px;
+  }
+  .propertyforsale .main-box .boxes1 .box1 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .propertyforsale .main-box .boxes1 .box1 .photo p {
+    width: 25%;
+  }
+  .propertyforsale .main-box .boxes1 .box2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .propertyforsale .main-box .boxes1 .box3 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .propertyforsale .main-box .boxes1 .box3 .photo p {
+    width: 25%;
+  }
+  .propertyforsale .main-box .boxes1 .box4 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .propertyforsale .main-box .line {
+    height: 50px;
+  }
+  .propertyforsale .main-box .boxes2 {
+    flex-direction: column;
+    height: 1200px;
+  }
+  .propertyforsale .main-box .boxes2 .box1 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .propertyforsale .main-box .boxes2 .box2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .propertyforsale .main-box .boxes2 .box2 .photo p {
+    width: 25%;
+  }
+  .propertyforsale .main-box .boxes2 .box3 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .propertyforsale .main-box .boxes2 .box4 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .wenevercompromize {
+    height: 900px;
+    display: block;
+    position: relative;
+  }
+  .wenevercompromize .main-box {
+    width: 90%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  .wenevercompromize .main-box .photos {
+    width: 100%;
+    height: 400px;
+  }
+  .wenevercompromize .main-box .photos .photo2 .photo p {
+    width: 35%;
+  }
+  .wenevercompromize .main-box .text {
+    width: 100%;
+    height: 400px;
+  }
+  .propertyforrent {
+    height: 1900px;
+    display: block;
+  }
+  .propertyforrent .container {
+    height: 900px;
+  }
+  .propertyforrent .container .boxes {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .propertyforrent .container .boxes .box1 {
+    width: 100%;
+  }
+  .propertyforrent .container .boxes .box2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .propertyforrent .container .boxes .box3 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .propertyforrent .container .boxes .box4 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .desilvadevilla {
+    display: block;
+    position: relative;
+  }
+  .desilvadevilla .main-box {
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+  }
+  .desilvadevilla .main-box img {
+    width: 100%;
+    height: 200px;
+  }
+  .ouragents {
+    height: 2000px;
+    display: block;
+    position: relative;
+  }
+  .ouragents .main-box {
+    position: absolute;
+    height: 1900px;
+    top: 50px;
+    left: 50px;
+  }
+  .ouragents .main-box .boxes {
+    flex-direction: column;
+    height: 1800px;
+  }
+  .ouragents .main-box .boxes .agent1 {
+    width: 100%;
+  }
+  .ouragents .main-box .boxes .agent2 {
+    width: 100%;
+  }
+  .ouragents .main-box .boxes .agent3 {
+    width: 100%;
+  }
+  .ouragents .main-box .boxes .agent4 {
+    width: 100%;
+  }
+  .ceo {
+    height: 1000px;
+    display: block;
+    position: relative;
+  }
+  .ceo .main-box {
+    height: 900px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    flex-direction: column;
+  }
+  .ceo .main-box .ceo1 {
+    width: 100%;
+    height: 400px;
+  }
+  .ceo .main-box .ceo2 {
+    width: 100%;
+    height: 400px;
+  }
+  .latestblogpost {
+    height: 1500px;
+    display: block;
+    position: relative;
+  }
+  .latestblogpost .main-box {
+    height: 1400px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  .latestblogpost .main-box .boxes {
+    height: 1300px;
+    flex-direction: column;
+  }
+  .latestblogpost .main-box .boxes .box1 {
+    width: 100%;
+  }
+  .latestblogpost .main-box .boxes .box2 {
+    width: 100%;
+  }
+  .latestblogpost .main-box .boxes .box3 {
+    width: 100%;
+  }
+  .footerTop {
+    height: 1700px;
+    display: block;
+    position: relative;
+  }
+  .footerTop .main-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    flex-direction: column;
+  }
+  .footerTop .main-box .about {
+    width: 100%;
+  }
+  .footerTop .main-box .about .title {
+    justify-content: center;
+  }
+  .footerTop .main-box .about .input .email {
+    width: 80%;
+  }
+  .footerTop .main-box .about .input .email input {
+    width: 90%;
+  }
+  .footerTop .main-box .popularpost {
+    width: 100%;
+  }
+  .footerTop .main-box .popularpost .title {
+    justify-content: center;
+  }
+  .footerTop .main-box .popularpost .text1 .h4 {
+    justify-content: center;
+  }
+  .footerTop .main-box .popularpost .text1 .p {
+    display: flex;
+    justify-content: center;
+  }
+  .footerTop .main-box .popularpost .text2 .h4 {
+    justify-content: center;
+  }
+  .footerTop .main-box .popularpost .text2 .p {
+    display: flex;
+    justify-content: center;
+  }
+  .footerTop .main-box .links {
+    width: 100%;
+  }
+  .footerTop .main-box .links .link ul {
+    margin-left: 170px;
+  }
+  .footerTop .main-box .contact {
+    width: 100%;
+  }
+  .footerTop .main-box .contact .title {
+    justify-content: center;
+  }
+  .footerTop .main-box .contact .text1 {
+    justify-content: center;
+  }
+  .footerTop .main-box .contact .text2 {
+    justify-content: center;
+  }
+  .footerTop .main-box .contact .text3 {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */

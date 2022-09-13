@@ -1,0 +1,194 @@
+.two{
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main-box{
+        width: 70%;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+
+        .photo-box{
+            width: 30%;
+            height: 400px;
+
+            .photo{
+                width: 100%;
+                height: 350px;
+            }
+
+            .text{
+                width: 100%;
+                height: 50px;
+                display: flex;
+                align-items: center;
+
+                p{
+                    margin-left: 10px;
+                }
+            }
+        }
+
+
+        .text-box{
+            width: 60%;
+            height: 400px;
+
+            .h2{
+                width: 100%;
+                height: 100px;
+
+                h2{
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 40px;
+                }
+            }
+
+            .p{
+                width: 100%;
+                height: 100px;
+            }
+
+
+            .specials{
+                width: 100%;
+                height: 200px;
+
+                .box1{
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+
+                    .boxx1{
+                        width: 50%;
+                        height: 100px;
+
+                        .title{
+                            width: 100%;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+
+                            .fa-solid{
+                                font-size: 30px;
+                                color: skyblue;
+                            }
+
+                            h4{
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 24px;
+                                margin-left: 20px;
+                            }
+                        }
+
+                        .p{
+                            width: 100%;
+                            height: 50px;
+                        }
+                    }
+
+                    .boxx2{
+                        width: 50%;
+                        height: 100px;
+
+                        .title{
+                            width: 100%;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+
+                            .fa-solid{
+                                font-size: 30px;
+                                color: skyblue;
+                            }
+
+                            h4{
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 24px;
+                                margin-left: 20px;
+                            }
+                        }
+
+                        .p{
+                            width: 100%;
+                            height: 50px;
+                        }
+                    }
+                }
+
+
+                .box2{
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+
+                    .boxx1{
+                        width: 50%;
+                        height: 100px;
+
+                        .title{
+                            width: 100%;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+
+                            .fa-solid{
+                                font-size: 30px;
+                                color: skyblue;
+                            }
+
+                            h4{
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 24px;
+                                margin-left: 20px;
+                            }
+                        }
+
+                        .p{
+                            width: 100%;
+                            height: 50px;
+                        }
+                    }
+
+
+                    .boxx2{
+                        width: 50%;
+                        height: 100px;
+
+                        .title{
+                            width: 100%;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+
+                            .fa-solid{
+                                font-size: 30px;
+                                color: skyblue;
+                            }
+
+                            h4{
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 24px;
+                                margin-left: 20px;
+                            }
+                        }
+
+                        .p{
+                            width: 100%;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

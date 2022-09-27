@@ -111,7 +111,7 @@ header .header-alt .main-box .navbar .burger .fa-grip-lines {
 .one {
   width: 100%;
   height: 600px;
-  background-image: url("/img/sec1bg.webp");
+  background-image: url("imgg/sec1bg.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1657,7 +1657,7 @@ header .header-alt .main-box .navbar .burger .fa-grip-lines {
 .footerTop {
   width: 100%;
   height: 500px;
-  background-image: url("/img/footer.webp");
+  background-image: url("imgg/footer.webp");
   background-position: center center;
   background-size: cover;
   display: flex;
